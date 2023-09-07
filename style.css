@@ -1,0 +1,101 @@
+body{
+    background-color: #f2a0df;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+h1{
+    font-size: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: oblique;
+    color: teal;
+
+}
+
+a{
+    font-size: 30px;
+    font-weight:bold;
+    text-decoration: none;
+    font-style: italic;
+    color: orangered; 
+    font-family:'Times New Roman', Times, serif;
+}
+
+a:hover{
+     
+    font-size: 45px;
+    text-decoration: none; 
+    font-style: normal; 
+    font-family:'Courier New', Courier, monospace;
+    color:aquamarine; 
+
+}
+
+hr{
+
+    border-color: yellow;
+}
+
+h6{
+    text-transform: uppercase;
+    font-style:italic; 
+    font-size: 9px;
+}
+
+p {
+    font-size:27px;
+    color: greenyellow;
+    padding: 10px;
+    
+}
+
+.red{
+    color: #f2a0df;
+    background-color: red;
+    font-style: italic;
+    padding: 50px;
+    margin: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#taylorswift{
+    color: teal;
+}
+
+#fearless{
+    color: goldenrod;
+}
+
+#speaknow{
+    color: purple;
+}
+
+#red{
+    color:red;
+}
+
+#nineteen{
+    color: lightblue;
+}
+
+#reputation{
+    color: black;
+}
+
+#lover{
+    color: pink;
+}
+
+#folklore{
+    color: grey;
+}
+
+#evermore{
+    color: brown;
+}
+
+#midnights{
+    color:blue;
+
+}
