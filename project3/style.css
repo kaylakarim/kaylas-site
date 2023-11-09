@@ -1,0 +1,266 @@
+body{
+    background-color: #000964;
+  
+}
+
+#logo{
+
+    width:10%;
+    margin: 0 auto;
+    display: block;
+    padding:2%;
+}
+
+.pinkbox{
+
+    background-color: #CE389C;
+    background: linear-gradient(to bottom, #d568b1, #fbb8df, #d568b1);
+    width:50%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    border-style: inset;
+    border-color: #c2339245;
+    border-width: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom:80px;
+}
+
+p{
+    font-family: "poiret-one", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    font-weight: bold ;
+    
+}
+
+
+.pinkBoxHeader{
+    background-color:#ef93c9;
+    border-style: inset;
+    border-color: #bc308292;
+    border-width: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    padding:1px;
+
+}
+
+
+.header{
+
+    display: block;
+    margin: 0 auto;
+    padding-left:18px;
+    width:800px;
+    padding-bottom: 20px;
+
+}
+
+.bratzSelection{
+
+    display:flex;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    background-color:#ef93c9;
+    border-style: inset;
+    border-color: #bc308292;
+    border-width: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 75%;
+    margin-top: 30px;
+    padding:5px;
+}
+
+.grid-item {
+    display: inline-grid;
+    padding: 0px;
+    margin: 5px;
+    justify-content: center;
+    overflow: hidden;
+    background-size: contain;
+    aspect-ratio: 1/1;
+    border-style: inset;
+    border-color: #000533;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    border-width: 3px;
+}
+
+.one{
+
+    background-image: url(imgs/sashagif.gif);
+
+}
+
+.two{
+
+    background-image: url(imgs/yasmingif.gif);
+
+}
+.three{
+
+    background-image: url(imgs/cloegif.gif);
+
+}
+
+.four{
+
+    background-image: url(imgs/jadegif.gif);
+
+}
+
+.circle{
+
+    background-color: #ce389c8d;
+    margin-top: 30px;
+    width: 40%;
+    margin-left:20px;
+    border-radius: 80%;
+
+}
+
+.p2{
+
+    font-size: 20px;
+    width:40%;
+    margin:0 auto;
+    margin-top:80%;
+    color: #0000008a;
+}
+
+h1{
+    font-family: "poiret-one", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color:black;
+    font-size: 40px;
+    font-weight: bold ;
+
+}
+
+
+.selectButtonactive{
+
+    background-color: #CE389C;
+    margin:0 auto;
+    margin-top:45px;
+    padding:1px;
+    border-radius: 48%;
+    width:20%;
+    border-style: solid;
+    border-color: #bc308292;
+    border-width: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    margin-bottom:25px;
+
+
+}
+
+.sasha{
+
+    width:90%;
+    margin: 30px;
+
+}
+
+.yasmin{
+
+    width:90%;
+    margin: 15px;
+
+}
+
+.active{
+    opacity: 0.2;
+}
+
+.charactername{
+    font-family: "poiret-one", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    font-weight: bold ;
+    padding:0px;
+    margin:0px;
+    
+}
+
+a.char{
+    font-size:300px;
+    opacity: 0;
+}
+
+.jade{
+
+    width:100%;
+    margin: 15px;
+
+}
+
+a{
+
+    text-decoration: none;
+    font-family: "poiret-one", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color:black;
+    font-size: 40px;
+    font-weight: bold ;
+    text-decoration: none;
+}
+
+.selectButtonactive{
+
+    background-color: #CE389C;
+    margin:0 auto;
+    margin-top:45px;
+    border-radius: 48%;
+    width:20%;
+    border-style: solid;
+    border-color: #bc308292;
+    border-width: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    margin-bottom:25px;
+    text-align: center;
+    padding:3%;
+
+}
+
+.selectButtonactive1{
+
+    background-color: #CE389C;
+    margin:0 auto;
+    margin-top:45px;
+    border-radius: 48%;
+    width:20%;
+    border-style: solid;
+    border-color: #bc308292;
+    border-width: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    margin-bottom:25px;
+    text-align: center;
+    padding:3%;
+    opacity:.2;
+
+}
+
+
