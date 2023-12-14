@@ -1,0 +1,61 @@
+h1{
+	font-family: "acroterion-jf", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size:130px;
+color:white;
+	text-align:center;
+}
+
+p{
+	font-family: "filosofia", serif;
+font-weight: 400;
+font-style: normal;
+	font-size:30px;
+	color:rgba(148,148,148,1.00);
+	padding-bottom:1%;
+}
+
+a{
+	font-family: "filosofia", serif;
+font-weight: 400;
+font-style: italic;
+text-decoration: none;
+	color:white;
+	font-size:50px;
+}
+
+body{
+	
+	background-color:rgba(148,148,148,1.00);
+}
+
+.mainBox{
+	
+	background-color:rgba(175,15,18,1.00);
+	width:70%;
+	margin:0 auto;
+	margin-top:10%;
+	border-radius:100px;
+	padding:5%;
+	border:solid 2px white;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	border:solid 1px white;
+	padding:2%;
+	margin:2%;
+	border-radius:80px;
+}
+
+a:hover{
+	color:rgba(175,15,18,1.00);
+}
+
+li:hover{
+	background-color:white;
+}
